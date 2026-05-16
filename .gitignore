@@ -1,0 +1,36 @@
+# 🔐 CREDENCIALES Y CONFIGURACIÓN LOCAL
+.env
+.env.local
+config/.env.local
+
+# 📦 DEPENDENCIAS (se instalan con npm install / composer install)
+node_modules/
+vendor/
+package-lock.json
+composer.lock
+
+# 💾 ARCHIVOS DEL SISTEMA
+.DS_Store
+Thumbs.db
+*.tmp
+
+# 📝 LOGS Y TEMPORALES
+*.log
+logs/
+tmp/
+temp/
+
+# 🔧 EDITORES Y IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# 🗄️ BASE DE DATOS (nunca subir full dump)
+database_full.sql
+*.sql.bak
+
+# 📂 CARPETAS DE UPLOADS/TEMPORALES
+public/uploads/
+public/temp/
