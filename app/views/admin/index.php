@@ -1,3 +1,4 @@
+<?php /** @var array $data */ ?>
 <div class="mb-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
     <div>
         <p class="text-sm font-semibold text-forest-600 uppercase tracking-wider mb-1">Administracion</p>

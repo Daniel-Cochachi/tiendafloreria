@@ -1,3 +1,4 @@
+<?php /** @var array $data */ ?>
 <section class="page-heading">
     <div>
         <p class="eyebrow">Admin</p>
