@@ -1,0 +1,14 @@
+{
+  "name": "tienda-floreria/tienda-floreria-mvc-php",
+  "description": "Estructura MVC profesional para una tienda de flores con PHP",
+  "type": "project",
+  "require": {
+    "php": "^7.4 || ^8.0"
+  },
+  "require-dev": [],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
