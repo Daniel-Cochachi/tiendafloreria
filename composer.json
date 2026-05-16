@@ -3,9 +3,9 @@
   "description": "Estructura MVC profesional para una tienda de flores con PHP",
   "type": "project",
   "require": {
-    "php": "^7.4 || ^8.0"
+    "php": "8.0"
   },
-  "require-dev": [],
+  "require-dev": {},
   "autoload": {
     "psr-4": {
       "App\\": "app/"
