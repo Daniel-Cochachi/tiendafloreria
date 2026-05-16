@@ -1,5 +1,11 @@
 FROM php:7.4-apache
 
+# Desactivar MPMs conflictivos (dejar solo prefork)
+RUN a2dismod mpm_event mpm_worker mpm_http2 || true
+
+# Habilitar MPM prefork
+RUN a2enmod mpm_prefork
+
 # Habilitar mod_rewrite para .htaccess
 RUN a2enmod rewrite
 
